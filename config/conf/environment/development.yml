@@ -1,0 +1,15 @@
+brcdb:
+  short_name: brc
+  host: pyox2k01
+  service_name: BRCEX_PP2
+  username:   BRC_U542013
+  password:   5iCeBzbJ
+  port:       1521
+  default_schema: BRC12
+
+mailing:
+    host: smtp-auth.mpsa.com
+    sender: olaf.kouamo@mpsa.com
+    receivers: [kamelia.zaouache@ext.mpsa.com, olaf.kouamo@mpsa.com]
+    username: u542013
+    password: Fr2002an  # RPI password

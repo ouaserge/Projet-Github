@@ -1,0 +1,21 @@
+{
+    "carbide_keys":{
+        "VIN": "HEAD_VIN",
+        "SESS_ID": "HEAD_SESS_ID",
+        "FRAME_ID": "HEAD_UUID",
+        "TIME_SYNC": "HEAD_TIME_SYNC",
+        "COLL_DATE": "HEAD_COLL_TIMS",
+        "TIME_SESS_STRT_CONV": "TIME_SESSION_DURATION",
+        "TIME_SESS_STRT": "HEAD_TIME_SINC_SESS_STRT",
+        "SEV_MAIN_STTS": "VEHC_STTS_SEV_MAIN_STTS",
+        "CHRG_MODE": "BATT_STTS_SUMM_CHRG_MODE",
+        "STTE_CHRG":"BATT_STTS_SUMM_STT_CHRG",
+        "MAX_TEMP":"BATT_STTS_SUMM_MAX_TEMP",
+        "INTENSITY":"BATT_VOLT_SUMM_INTN",
+        "PLUG_STTE":"BATT_PLUG_STT"
+    },
+    "data_coll": "carbide",
+    "filepath":{
+        "carbide_datapath": "/user/u542013/brc01/cvh00/data/standardized/01d/"
+    } 
+}

@@ -1,0 +1,34 @@
+{
+    "join_conf":{
+    "df": {"key1": "HEAVIN", "key2": "HEDOCO", "key3": "HEUUID"},
+    "join": {"type": "left"}
+    },
+    "bloc_name_dict":{
+        "72": "-locl",
+        "73": "-prvc",
+        "54": "-perd",
+        "55": "-evnt_alrt",
+        "56": "-evnt_stop",
+        "57": "-evnt_strt",
+        "58": "-evnt_crsh",
+        "59": "-evnt_prvc",
+        "66": "-exts",
+        "67": "-jda",
+        "65": "-jdd",
+        "68": "-batt",
+        "69": "-ther_cond",
+        "70": "-trip",
+        "71": "-ecoac",
+        "74": "-vehl_stts",
+        "75": "-main_stts",
+        "76": "-door_stts",
+        "77": "-volt_summ",
+        "78": "-volt_detl",
+        "79": "-stts_summ",
+        "80": "-stts_detl",
+        "81": "-stte_of_heal",
+        "82": "-crash",
+        "83": "-adas",
+        "84": "-usage_stts"
+    }
+}

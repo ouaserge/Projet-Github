@@ -1,0 +1,61 @@
+{
+    "invalid_svin": ["0000000000", "FFFFFFFFFF"],
+    "pas_gps": 20,
+    "posi_right_gps" : 40,
+    "message_type":{
+        "54": {
+            "frame_type": "periodic",
+            "trigger_type": ""
+          },
+          "55": {
+            "frame_type": "event",
+            "trigger_type": 1,
+            "description": "event_alert"
+            
+          },
+          "56": {
+            "frame_type": "event",
+            "trigger_type": 2,
+            "description": "event_stop"
+          },
+          "57": {
+            "frame_type": "event",
+            "trigger_type": 3,
+            "description": "event_start"
+          },
+          "58": {
+            "frame_type": "event",
+            "trigger_type": 4,
+            "description": "event_crash"
+          },
+          "59": {
+            "frame_type": "event",
+            "trigger_type": 5,
+            "description": "event_privacy"
+          }
+    },
+    "frame_type":{
+        "periodic":{
+            "VIS_CAN":"HEAD_VIS_CAN",
+            "VIS_CONFG":"HEAD_VIS_CONF",
+            "SVIN":"HEAD_SVIN",
+            "VIN": "HEAD_VIN",
+            "COLL_DATE": "PERD_COLL_TIMS"
+            },
+        "event":{
+            "VIS_CAN":"HEAD_VIS_CAN",
+            "VIS_CONFG":"HEAD_VIS_CONF",
+            "SVIN":"HEAD_SVIN",
+            "VIN": "HEAD_VIN",
+            "COLL_DATE": "EVNT_COLL_TIMS"
+            }
+    },
+    "data_coll":{
+        "carcom_xml": "carcom_xml",
+        "carcom_json": "carcom_json"
+    },
+    "filepath":{
+        "carcom_json_datapath":"/user/u542013/brc01/cvh00/data/standardized/bcr00/",
+        "carcom_xml_datapath":""
+    }
+    }

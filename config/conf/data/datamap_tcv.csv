@@ -1,0 +1,764 @@
+data_coll;mess_type;name_stnd;old_info_code;desc;min;max;invl_val
+carbide;54;PERD_COLL_TIMS;PTCL;Date and hour at the moment of the first data collected;;;
+carbide;54;PERD_TRNS_TIMS;PTSD;Date and hour at the moment of the upstream;;;
+carbide;54;PERD_FRM_ID;PFCO;Identifier of the frame;0;65535;
+carbide;54;PERD_TRIP_ID;PTID;Identifier of the trip;0;65535;
+carbide;54;PERD_PRVC_MODE_01;PPV1;Privacy mode at the last second of first loop of 30 seconds;;;
+carbide;54;PERD_PRVC_MODE_01_V2;PEPM12;;0;3;
+carbide;54;PERD_PRVC_MODE_02;PPV2;Privacy mode at the last second of second loop of 30 seconds;;;
+carbide;54;PERD_PRVC_MODE_02_V2;PEPM22;;0;3;
+carbide;54;PERD_REBT_COUN;PBOO;Defined the number of ATB reboot;0;255;
+carbide;54;PERD_VIN;PVIN;;;;
+carbide;54;PERD_ADAS_ACC;PACC;The ACC status for the first/second/third loop of 20s after the start of collection;;;256
+carbide;54;PERD_ADAS_AEBS;PEBS;The AEBS request to light FARC lamp status for the first/second/third loop of 20s after the start of collection;;;16
+carbide;54;PERD_ADAS_SPD_REGL_AND_LIMT;PSPL;The LVV/RVV status for the first/second/third loop of 20s after the start of collection;;;16
+carbide;54;PERD_ADAS_SPD_REGL;PASR;The RVVi status for the first/second/third loop of 20s after the start of collection;;;65536
+carbide;54;PERD_ADAS_BLND_SPOT_MONT;PBSM;The SAM status for the first/second/third loop of 20s after the start of collection;;;64
+carbide;54;PERD_ADAS_ELCT_BRK_SERV;PFSE;The FSE status for the first/second/third loop of 20s after the start of collection;;;4
+carbide;54;PERD_ADAS_FRNT_PARK;PPKF;The front parking AAS status for the first/second/third loop of 20s after the start of collection;;;256
+carbide;54;PERD_ADAS_LDW;PLDW;The AFIL request to light AFIL lamp status for the first/second/third loop of 20s after the start of collection;;;16
+carbide;54;PERD_ADAS_LEFT_LKA;PLKL;The left LKA status for the first/second/third loop of 20s after the start of collection;;;16
+carbide;54;PERD_ADAS_REAR_PARK;PPKR;The rear parking AAS status for the first/second/third loop of 20s after the start of collection;;;256
+carbide;54;PERD_ADAS_ARTIV;PIVA;The ARTIV selection for the first/second/third loop of 20s after the start of collection;;;8
+carbide;54;PERD_ADAS_RIGH_LKA;PLKR;The right LKA status for the first/second/third loop of 20s after the start of collection;;;16
+carbide;54;PERD_ADAS_SPD_LIMT_INFR;PSLI;The SLI status n*20s after the start of collection;0;253;255
+carbide;54;PERD_ADAS_ABS;PABR;The ABR status for the first/second/third loop of 20s after the start of collection;;;4
+carbide;54;PERD_ADAS_ESP;PESP;The ESP status for the first/second/third loop of 20s after the start of collection;;;8
+carbide;54;PERD_CRSH_FRNT_REPR;PCF1;The front reparability crash info during the 60s;;;4
+carbide;54;PERD_CRSH_FRNT_HIGH_SPD;PCF5;The high speed front crash info during the 60s;;;4
+carbide;54;PERD_CRSH_FRNT_LOW_SPD;PCF2;The low speed front crash info during the 60s;;;4
+carbide;54;PERD_CRSH_FRNT_MEDM_SPD_N1;PCF4;The medium speed N1 front crash info during the 60s;;;4
+carbide;54;PERD_CRSH_FRNT_MEDM_SPD_N2;PCF3;The medium speed N2 front crash info during the 60s;;;4
+carbide;54;PERD_CRSH_PEDS_INFR;PECPCI;The pedestrian crash info for the first/second/third loop of 20s after the start of collection;1;3;4
+carbide;54;PERD_CRSH_PEDS_INFR_LIST;PCPD;;;;
+carbide;54;PERD_CRSH_REAR_HIGH_SPD;PCR4;The rear high speed crash info during the 60s;;;4
+carbide;54;PERD_CRSH_LATR_REAR_HIGH_SPD;PCL4;The high speed lateral crash info during the 60s;;;4
+carbide;54;PERD_CRSH_LATR_REAR_LOW_SPD;PCL2;The low speed lateral crash info during the 60s;;;4
+carbide;54;PERD_CRSH_REAR_MEDM_SPD;PCR3;The rear medium speed crash info during the 60s;;;4
+carbide;54;PERD_CRSH_LATR_REAR_MEDM_SPD;PCL3;The medium speed lateral crash info during the 60s;;;4
+carbide;54;PERD_CRSH_REAR_REPR;PCL1;The reparability lateral crash info during the 60s;;;4
+carbide;54;PERD_CRSH_REAR_REPR_SPD;PCR1;The rear reparability speed crash info during the 60s;;;4
+carbide;54;PERD_CRSH_REAR_LOW_SPD;PCR2;The rear slow speed crash info during the 60s;;;4
+carbide;54;PERD_CRSH_TIPP_OVER;PCTO;The tipped over crash info during the 60s;;;4
+carbide;54;PERD_ALTT;PALT;The altitude n*6s after the start of collection;-1000;10000;4294967295
+carbide;54;PERD_GPS_SIGN_QUAL;PLSN;The GPS signal quality ns after the start of collection;0;9;
+carbide;54;PERD_HEAD;PHEA;The heading ns after the start of collection;0;359;
+carbide;54;PERD_LATT;PLAT;The latitude ns after the start of collection;-648000000;648000000;4294967295
+carbide;54;PERD_LONG;PLON;;-648000000;648000000;4294967295
+carbide;54;PERD_GPS_VEHC_LOCT_TYPE;PLTY;The vehicle localization type n*6s after the start of collection;;;0
+carbide;54;PERD_VEHC_ENGN_SPD;PRPM;The engine speed n*10s after the start of collection;0;8191.75;
+carbide;54;PERD_VEHC_FRNT_FOG_LAMP;PFLF;The front fog lamps status for the first/second loop of 30s after the start of collection;;;02:03
+carbide;54;PERD_VEHC_FUEL_INST_CONS;PFUI;The instant fuel consumption n*10s after the start of collection;0;30;65535
+carbide;54;PERD_VEHC_FUEL_LEVL;PFUL;The fuel level 60s after the start of collection;0;100;255
+carbide;54;PERD_VEHC_FUEL_TOTL_CONS;PFUT;The total fuel consumption at the end of the 60s;0;34359738.35;4294967295
+carbide;54;PERD_VEHC_GEAR_MODE;PAUM;The gearbox mode n*10s after the start of collection;;;8
+carbide;54;PERD_VEHC_GMP_STTS;PENS;The GMP status 60s after the start of collection;;;04:07
+carbide;54;PERD_VEHC_HYBR_MODE;PHYM;The hybrid GMP mode n*10s after ;;;4
+carbide;54;PERD_VEHC_IGNT;PING;The SEV status at the end of the 60s;;;
+carbide;54;PERD_VEHC_LIFT_MILG;PMIT;The vehicle mileage 60s after the start of collection;0;1677721.4;16777215
+carbide;54;PERD_VEHC_LONG_SPD;PSPX;The longitudinal speed ns after the start of collection;0;655.34;65535
+carbide;54;PERD_VEHC_LUMN;PLUM;The luminosity for the first/second loop of 30s after the start of collection;;;
+carbide;54;PERD_VEHC_OIL_TEMP;POIT;The oil temperature 60s after the start of collection;-40;214;255
+carbide;54;PERD_VEHC_OUTS_TEMP;PETP;The outside temperature at the end of the 60s;-40;85;255
+carbide;54;PERD_VEHC_REAR_FOG_LAMP;PFLR;The rear fog lamps status for the first/second loop of 30s after the start of collection;;;02:03
+carbide;54;PERD_VEHC_RECM_GEAR_INDC;PRGI;The GSI status n*10s after the start of collection;;;04:07
+carbide;54;PERD_VEHC_UNBC_BELT_WARN;PUBW;The driver belt status during the 60s;;;0
+carbide;65;JDD_DTC_STT;JDDTCS;;0;1;
+carbide;65;JDD_ERRR_CODE;JDERCO;;;;
+carbide;65;JDD_FRM_ID;JDFRID;The original CAN frame id;;;
+carbide;65;JDD_KILM;JDKILO;;0;16777214;
+carbide;65;JDD_LIFE_SITT;JDLISI;;;;
+carbide;65;JDD_MESS_TYPE;JDMETY;;0;1;
+carbide;65;JDD_TIME_REFR;JDTIRE;;0;429496729.3 ;
+carbide;66;EXTN_BATT_VOLT;EXBAVO;Tension batterie BECB;5;18;2047
+carbide;66;EXTN_BRK_PEDL;EXBPST;Contact principal pédale de frein;0;1;
+carbide;66;EXTN_DRVR_SEAT_BELT;EXDSBS;Etat ceinture conducteur. 0b00 = indéterminé;0;3;
+carbide;66;EXTN_DRVR_WILL;EXDRWI;Volonté conducteur;0;100;255
+carbide;66;EXTN_ENGN_AIR_TEMP;EXEATE;Température d'air à l'admission. Signal capteur Température d'air dans le système d'admission. Ce capteur est situé sur le boitier papillon ou le débimètre en Ess., et sur le débimètre en Diesel.;-40;214;255
+carbide;66;EXTN_ENGN_OIL_LEVL;EXEOLE;Niveau d'huile moteur;0;750;255
+carbide;66;EXTN_ENGN_OIL_TEMP;EXEOTE;Température d'huile moteur;-40;214;255
+carbide;66;EXTN_ENGN_SPD;EXENSP;The Engine speed (RPM);0;8191.75;65535
+carbide;66;EXTN_ENGN_WATR_TEMP;EXEWTE;Température d'eau moteur;-40;214;255
+carbide;66;EXTN_GEAR_CALC_RAT;EXGBCR;"Rapport engagé calculé
+Rapport de boite de vitesses engagé recalculé (cas des BVM) (par ex : VVh / Régime)
+";0;15;
+carbide;66;EXTN_GEAR_EFFC_RAT;EXGBER;Transmission range mechanically engaged;0;15;
+carbide;66;EXTN_GEAR_MODE;EXGBMO;The program mode selected (BVA or BVMP);0;7;
+carbide;66;EXTN_LATR_ACCL;EXLAAC;The lateral acceleration (> 0 if turn left);-15;15;32767
+carbide;66;EXTN_LONG_ACCL;EXLOAC;"Acceleration longitudinale (capteurs de roues)
+Acceleration mesurée avec les capteurs de roues";-14;6.32;255
+carbide;66;EXTN_MAST_CYLN;EXETGM;The master cylinder pressure;-55;354.4;4095
+carbide;66;EXTN_ODMT_SPD;EXODSP;Vitesse véhicule (capteurs de roues);0;655.34;65535
+carbide;66;EXTN_PASS_SEAT_BELT;EXPSBS;Etat ceinture passager;0;3;
+carbide;66;EXTN_POWR_TRN;EXPTST;Etat du groupe moto propulseur;0;3;
+carbide;66;EXTN_RAIN_SENS_STT;EXRSST;"Etat du système d'essuyage capteur de pluie
+Emis si capteur de pluie";0;3;
+carbide;66;EXTN_SERV_INDC;EXSEIN;Allumage voyant service ;0;1;
+carbide;66;EXTN_STRN_WHL_ANGL;EXSWAN;The steering wheel angle (> 0 if trigonometric direction);-780;780;32767
+carbide;66;EXTN_STOP_INDC;EXSTIN;Allumage voyant stop (STOP);0;1;
+carbide;66;EXTN_TORQ;EXTORQ;The actual torque available on the shaft including the actual engine torque and the actual electrical machine torque (if present).;-100;408;255
+carbide;66;EXTN_YAW_SPD;EXYASP;The yaw speed (> 0 if trigonometric direction);-100;100;32767
+carbide;68;BATT_AUTN;BAAUTO;Residual autonomy;0;2000;65535
+carbide;68;BATT_CHRG_MODE;BACHMO;Battery recharge mode;0;7;
+carbide;68;BATT_CHRG_STT;BACHST;Charge state for HMI;0;7;
+carbide;68;BATT_LOAD_LEVL;BALOLE;Load level;0;100;127
+carbide;68;BATT_PLUG_STT;BAPLST;State charging connector;0;3;
+carbide;68;BATT_REMN_CHRG_TIME;BARCTI;Electrical charge remaining time;0;630;
+carbide;68;BATT_RTAB_STRT_TIME;BARSTI;Status memorized of the activation of  the function « RTAB »;0;1440;
+carbide;68;BATT_ZEV_AUTN;BAZEAU;ZEV autonomy;0;1000;511
+carbide;68;BATT_ZEV_CHRG_GAIN;BAZECG;Electrical charging rate stated in earned ZEV range;0;500;
+carbide;69;THRM_COND_ACTV;TCPRAC;PRECOND function status;0;15;
+carbide;69;THRM_COND_WEEK_1_DAY_1_ACTV;TCW1D1;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_1_DAY_2_ACTV;TCW1D2;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_1_DAY_3_ACTV;TCW1D3;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_1_DAY_4_ACTV;TCW1D4;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_1_DAY_5_ACTV;TCW1D5;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_1_DAY_6_ACTV;TCW1D6;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_1_DAY_7_ACTV;TCW1D7;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_1_ACTV;TCW1PA;Status memorized of the activation of the function;0;1;
+carbide;69;THRM_COND_WEEK_1_TIME;TCW1PT;Status memorized of the activation of  the function CLIM;0;1440;
+carbide;69;THRM_COND_WEEK_2_DAY_1_ACTV;TCW2D1;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_2_DAY_2_ACTV;TCW2D2;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_2_DAY_3_ACTV;TCW2D3;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_2_DAY_4_ACTV;TCW2D4;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_2_DAY_5_ACTV;TCW2D5;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_2_DAY_6_ACTV;TCW2D6;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_2_DAY_7_ACTV;TCW2D7;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_2_ACTV;TCW2PA;Status memorized of the activation of the function;0;1;
+carbide;69;THRM_COND_WEEK_2_TIME;TCW2PT;Status memorized of the activation of the function CLIM;0;1440;
+carbide;69;THRM_COND_WEEK_3_DAY_1_ACTV;TCW3D1;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_3_DAY_2_ACTV;TCW3D2;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_3_DAY_3_ACTV;TCW3D3;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_3_DAY_4_ACTV;TCW3D4;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_3_DAY_5_ACTV;TCW3D5;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_3_DAY_6_ACTV;TCW3D6;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_3_DAY_7_ACTV;TCW3D7;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_3_ACTV;TCW3PA;Status memorized of the activation of the function;0;1;
+carbide;69;THRM_COND_WEEK_3_TIME;TCW3PT;Status memorized of the activation of the function CLIM;0;1440;
+carbide;69;THRM_COND_WEEK_4_DAY_1_ACTV;TCW4D1;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_4_DAY_2_ACTV;TCW4D2;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_4_DAY_3_ACTV;TCW4D3;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_4_DAY_4_ACTV;TCW4D4;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_4_DAY_5_ACTV;TCW4D5;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_4_DAY_6_ACTV;TCW4D6;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_4_DAY_7_ACTV;TCW4D7;Status memorized of the activation of the function CLIM;0;1;
+carbide;69;THRM_COND_WEEK_4_ACTV;TCW4PA;Status memorized of the activation of the function;0;1;
+carbide;69;THRM_COND_WEEK_4_TIME;TCW4PT;Status memorized of the activation of the function CLIM;0;1440;
+carbide;70;TRIP_AVG_FUEL_CONS;TRAFCO;Ride average fuel consumption;0;30;
+carbide;70;TRIP_DIST_TRVL;TRDITR;Distance counter;0;5000;
+carbide;70;TRIP_DURT;TRDURA;Time counter of trip;0;65535;
+carbide;70;TRIP_ZEV_AVG_POWR_CONS;TRZAPC;ride power consumption;0;50;
+carbide;70;TRIP_ZEV_UTLZ;TRZEUT;percentage of the ZEV use distance for the current trip;0;100;
+carbide;71;ECCH_ACCL_SCR;ECACSC;Displayed Eco Coaching note for acceleration item;0;10;15
+carbide;71;ECCH_BRK_SCR;ECBRSC;Displayed Eco Coaching note for brake item;0;10;15
+carbide;71;ECCH_CLMT_COMF_SCR;ECCCSC;Displayed Eco Coaching note for climate comfort item;0;10;15
+carbide;71;ECCH_COLD_ENGN_SCR;ECCESC;Displayed Eco Coaching note for cold engine item;0;10;15
+carbide;71;ECCH_GLBL_SCR;ECGLSC;Displayed global Eco Coaching note;0;10;15
+carbide;71;ECCH_SLP_SCR;ECSLSC;Displayed Eco Coaching note for slope item;0;10;15
+carbide;71;ECCH_SPD_SCR;ECSPSC;Displayed Eco Coaching note for speed item;0;10;15
+carbide;71;ECCH_STRT_STOP_SCR;ECSSSC;Displayed Eco Coaching note for stop & start item;0;10;15
+carbide;71;ECCH_TIRE_PRSS_SCR;ECTPSC;Displayed Eco Coaching note for tyre pressure item;0;10;15
+carbide;72;LOCL_ALTT;LOALTI;Altitude above the sea level of the current position in m.;;;
+carbide;72;LOCL_ALTT_ERRR;LOALER;Standard error estimate of the altitude in m.;;;
+carbide;72;LOCL_COUR_ANGL;LOCOAN;Course angle in degree. Range [0:360]. 0 = north, 90 = east, 180 = south, 270 = west.;0;360;
+carbide;72;LOCL_DR_HEAD;LODRHE;Course angle in degree. Range [0:360]. 0 = north, 90 = east, 180 = south, 270 = west.;0;360;
+carbide;72;LOCL_DR_LATT;LODRLA;WGS84 latitude of the current position in degrees. Range [-90:+90].;-90;90;
+carbide;72;LOCL_DR_LONG;LODRLO;WGS84 longitude of the current position in degrees. Range [-180:+180].;-180;180;
+carbide;72;LOCL_DR_SPD;LODRSP;Speed measured in m/s. A negative value indicates that the vehicle is moving backwards.;;;
+carbide;72;LOCL_FIX_STTS;LOFIST;Cf. GNSS fix status enumeration below.;0;3;
+carbide;72;LOCL_GNSS_DATE;LOGNDA;Timestamp of the acquisition of the position data, in Unix time.;;;
+carbide;72;LOCL_HORZ_DILT;LOHODI;Horizontal (2D) dilution of precision.;;;
+carbide;72;LOCL_HORZ_ERRR;LOHOER;Standard error estimate of the horizontal position in m.;;;
+carbide;72;LOCL_LATT;LOLATI;WGS84 latitude of the current position in degree. Range [-90:+90].;-90;90;
+carbide;72;LOCL_LONG;LOLONG;WGS84 longitude of the current position in degree. Range [-180:+180].;-180;180;
+carbide;72;LOCL_POST_DILT;LOPODI;Positional (3D) dilution of precision.;;;
+carbide;72;LOCL_SPD;LOSPEE;Speed measured in m/s. A negative value indicates that the vehicle is moving backwards.;;;
+carbide;72;LOCL_SPD_ERRR;LOSPER;Standard error estimate of the speed in m/s.;;;
+carbide;72;LOCL_TRCK_SATL;LOTRSA;Number of satellites from which a signal is received.;;;
+carbide;72;LOCL_USED_SATL;LOUSSA;Number of satellites used for the GNSS fix.;;;
+carbide;72;LOCL_VALD;LOVALI;"Bit mask indicating the validity of each corresponding value. Must be checked before usage.
+Cf. validity bit enumeration below.";;;
+carbide;72;LOCL_VERT_DILT;LOVEDI;Vertical (altitude) dilution of precision;;;
+carbide;72;LOCL_VISB_SATL;LOVISA;Number of satellites expected to be receivable, i.e. above horizon or elevation mask.;;;
+carbide;73;PRVC_APPL_STTS;PRAPST;Maximal authorized privacy coming from the OTA configuration;0;2;
+carbide;73;PRVC_REQS_STTS;PRREST;"Privacy requested by the vehicle user (off, geoloc or full).
+This privacy is retrieved from the SDK API ""Cfm_PrivacyMode_Info""";0;2;
+carbide;73;PRVC_STTS;PRSTAT;"Status of the privacy mode (off, geoloc or full).
+The privacy status is computed based on privacy requested by the vehicle user and the maximal authorized privacy coming from the OTA configuration";0;2;
+carbide;73;PRVC_TYPE;PRTYPE;Privacy mode source (ATB_PUSH/BTEL). This parameter is configured via KWP;0;1;
+carbide;74;VEHC_STTS_AUXL_BATT_SOC;VSSOCA;SOC batterie auxiliaire 12V;0;100;
+carbide;74;VEHC_STTS_CHRG_STT;VSCHST;Battery state of charge;0;100;
+carbide;74;VEHC_STTS_ELCT_NETW;VSENST;Electric network state;0;15;
+carbide;74;VEHC_STTS_FUEL_LEVL;VSFULE;Level of fuel filtered;0;100;
+carbide;74;VEHC_STTS_LIFT_MILG;VSLTMI;Vehicle mileage;0;1677721.4;
+carbide;74;VEHC_STTS_LUMN;VSLUMI;Luminosity;;;
+carbide;74;VEHC_STTS_OUTS_TEMP;VSOUTE;External temperature;-40;85;
+carbide;74;VEHC_STTS_RESD_AUTN;VSAUTO;Residual autonomy;0;2000;
+carbide;74;VEHC_STTS_SEV_MAIN_STTS;VSEPSE;Status of main SEV;0;3;
+carbide;74;VEHC_STTS_ZEV_AUTN;VSAUZE;ZEV autonomy;0;1000;
+carbide;75;MAIN_STTS_DAYS_TO_MAIN;MSDTMA;Number of days before/after maintenance term;0;730;
+carbide;75;MAIN_STTS_MAIN_LIGH;MSMALI;Display of the maintenance wrench pictogram when displaying maintenance;0;1;
+carbide;75;MAIN_STTS_MAIN_LIGH_MODE;MSMLMO;Mileage and sign display;0;1;
+carbide;75;MAIN_STTS_MAIN_TYPE;MSMATY;Type of maintenance 2;0;1;
+carbide;75;MAIN_STTS_MILG_TO_MAIN;MSMTMA;Mileage before maintenance;0;140000;
+carbide;75;MAIN_STTS_SERV_LIGH;MSSELI;Service lamp on (!);;;
+carbide;76;DOOR_STTS_BOOT_LOCK;DSBTST;Status of boot locking;0;1;
+carbide;76;DOOR_STTS_BOOT_OPNN;DSBOST;Luggage compartment status;0;1;
+carbide;76;DOOR_STTS_DRVR_ESTM_OPNN;DSDEOS;Opening estimated state of the driver door (ETAT_CPO_COND presumed failing);0;1;
+carbide;76;DOOR_STTS_DRVR_OPNN;DSDOST;Opening state of the driver door;0;1;
+carbide;76;DOOR_STTS_LOCK;DSLOST;Status of vehicle locking;1;6;"0
+7"
+carbide;76;DOOR_STTS_PASS_OPNN;DSPOST;Status of the front-seat occupant door;0;1;
+carbide;76;DOOR_STTS_REAR_LEFT_OPNN;DSRLOS;Status of the rear left door;0;1;
+carbide;76;DOOR_STTS_REAR_LOCK;DSRLST;Lock status of the vehicle's back side openings (updated at the end of un/locking);0;1;
+carbide;76;DOOR_STTS_REAR_RIGH_OPNN;DSRROS;Status of the  rear right door;0;1;
+carbide;76;DOOR_STTS_REAR_WIND_OPNN;DSRWOS;Rear window status;0;1;
+carbide;76;DOOR_STTS_RETR_ROOF_POST;DSRRPO;Status of the retractable roof's position;0;1;
+carbide;77;BATT_VOLT_SUMM_CELL_MAX_VOLT;VSMAXV;Maximal cell voltage;0;15;16383
+carbide;77;BATT_VOLT_SUMM_CELL_MIN_VOLT;VSMINV;Min. cell voltage;0;15;16383
+carbide;77;BATT_VOLT_SUMM_ID_CELL_MAX_VOLT;VSCMAX;ID of cell with the maximal voltage;1;250;255
+carbide;77;BATT_VOLT_SUMM_ID_CELL_MIN_VOLT;VSCMIN;ID of cell with the minimal voltage;1;250;255
+carbide;77;BATT_VOLT_SUMM_INTN;VSINTE;Real current of HV battery;-400;400;1023
+carbide;77;BATT_VOLT_SUMM_VOLT;VSVOLT;Real voltage HV battery;0;500;2047
+carbide;78;BATT_VOLT_DETL_CELL_VOLT;VDCEVO;Voltage for Cell ID 1;0;15;16383
+carbide;78;BATT_VOLT_DETL_INTN;VDINTE;Real current of HV battery;-400;400;1023
+carbide;79;BATT_STTS_SUMM_AVRG_TEMP;SSAVTE;High Voltage battery average temperature;-40;210;255
+carbide;79;BATT_STTS_SUMM_CHRG_MODE;SSCHMO;Battery recharge mode;0;7;
+carbide;79;BATT_STTS_SUMM_CHRG_STT;SSCHST;Charge state for HMI;0;7;
+carbide;79;BATT_STTS_SUMM_MAX_TEMP;SSMATE;High Voltage Battery maximal Temperature (among probes);-40;85;127
+carbide;79;BATT_STTS_SUMM_MIN_TEMP;SSMITE;High Voltage Battery minimal Temperature;-40;210;255
+carbide;79;BATT_STTS_SUMM_POWR_MODE;SSPOMO;EPS mode request;;;
+carbide;79;BATT_STTS_SUMM_PRB_MAX_TEMP;SSPWMA;ID of probe with maximal temperature;1;250;255
+carbide;79;BATT_STTS_SUMM_PRB_MIN_TEMP;SSPWMI;ID of probe with minimal temperature;1;250;255
+carbide;79;BATT_STTS_SUMM_REMN_CAPC;SSRECA;Remaining battery capacity;0;200;1048575
+carbide;79;BATT_STTS_SUMM_REMN_ENRG;SSREEN;Remaining battery energy;0;65440;2047
+carbide;79;BATT_STTS_SUMM_SOC;SSSTCH;High Voltage battery state of charge;0;100;1023
+carbide;79;BATT_STTS_SUMM_TOTL_ENRG;SSTOEN;BMS total battery energy;0;65440;2047
+carbide;80;BATT_STTS_DETL_PRB_TEMP;SDPRTE;Temperature for probe ID n avec n dans [1..54];-40;210;255
+carbide;81;SOH_CAPC_SOH;SHCASH;State Of Health linked to battery capacity SOH;0;100;127
+carbide;81;SOH_INSL_RESS;SHINRE;Insulation resistance of the HV battery;0;60000;65535
+carbide;81;SOH_REL_DAMG_COUN;SHMRDC;Battery main relay damage counter;0;200000;1023
+carbide;81;SOH_NEGT_CHRG_EXCH;SHNECE;Total negative coulomb counting (negative current) exchanged by the traction battery;0;500000;4095
+carbide;81;SOH_NEGT_CHRG_EXCH_PLGN;SHNCEP;Total negative energy counting (negative current) exchanged by the traction battery for Plugin;0;500000;4095
+carbide;81;SOH_NEGT_ENRG_EXCH;SHNEEE;Total negative energy counting (positive power) exchanged by the traction battery;0;140000;4095
+carbide;81;SOH_NEGT_ENRG_EXCH_PLGN;SHNEEP;Total negative energy counting (negative current) exchanged by the traction battery for Plugin;0;140000;4095
+carbide;81;SOH_TIME_CHRG_HIGH_TEMP;SHTCHT;Operating time battery charged with high temperature;0;600;8191
+carbide;81;SOH_TIME_DISC_HIGH_TEMP;SHTDHT;Operating time battery discharged with high temperature;0;600;8191
+carbide;81;SOH_TIME_OVER_CHRG_POWR;SHOOCP;operating time exceeding charge power;0;600;8191
+carbide;81;SOH_TIME_OVER_DISC_POWR;SHOODP;operating time exceeding discharge power;0;600;8191
+carbide;81;SOH_TIME_OVER_TEMP;SHOTOT;Operating time spent over a traction battery temperature threshold;0;600;8191
+carbide;81;SOH_TIME_OVER_VOLT_RANG;SHOOVR;Operating time exceeding voltage range;0;600;8191
+carbide;81;SOH_POST_CHRG_EXCH;SHPOCE;Total positive coulomb counting (positive current) exchanged by the traction battery;0;500000;4095
+carbide;81;SOH_POST_ENRG_EXCH;SHPOEE;Total positive energy counting (positive power) exchanged by the traction battery;0;140000;4095
+carbide;81;SOH_QUIC_CHRG_REL_DAMG_COUN;SHCRDC;Battery quick charge relay damage counter;0;200000;1023
+carbide;81;SOH_RESS_SOH;SHRESH;State Of Health linked to battery internal resistance;0;100;127
+carbide;81;SOH_TOTL_CELL;SHTOCE;Number of cells in the traction battery.;0;250;255
+carbide;81;SOH_TOTL_PRBS;SHTOPR;Number of temperature probe in the traction battery.;0;250;255
+carbide;82;CRSH_INFR;CRCRDE;Crash detected info;;;
+carbide;82;CRSH_ECLL_REQS;CRECRE;Request to send an auto Ecall following shock detected;;;
+carbide;82;CRSH_FRNT_HIGH_SPD;CRFHSC;Front crash  at high speed Info;;;
+carbide;82;CRSH_FRNT_LOW_SPD;CRFLSC;Front crash at low speed Info;;;
+carbide;82;CRSH_FRNT_MEDM_SPD_N1;CRFMS1;Front crash at medium speed N1 Info;;;
+carbide;82;CRSH_FRNT_MEDM_SPD_N2;CRFMS2;Front crash at medium speed N2 Info;;;
+carbide;82;CRSH_FRNT_REPR;CRFRCD;Front crash reparability info;;;
+carbide;82;CRSH_LATR_HIGH_SPD;CRLHSC;Lateral crash at high speed Info;;;
+carbide;82;CRSH_LATR_LOW_SPD;CRLLSC;Lateral crash at low speed Info;;;
+carbide;82;CRSH_LATR_MEDM_SPD;CRLMSC;Lateral crash at medium speed Info;;;
+carbide;82;CRSH_LATR_REPR;CRLRCD;Lateral crash reparability info;;;
+carbide;82;CRSH_PEDS;CRPCRD;Pedestrian Crash Info;;;
+carbide;82;CRSH_REAR_HIGH_SPD;CRRHSC;Rear crash at high speed Info;;;
+carbide;82;CRSH_REAR_LOW_SPD;CRRLSC;Rear crash at low speed Info;;;
+carbide;82;CRSH_REAR_MEDM_SPD;CRRMSC;Rear crash at medium speed Info;;;
+carbide;82;CRSH_REAR_REPR;CRRRCD;Rear crash reparability info;;;
+carbide;82;CRSH_TIPP_OVER;CRTIOV;Crash tipped over info;;;
+carbide;83;ADAS_ACC;ADACRC;The ACC status;;;
+carbide;83;ADAS_AEBS;ADAEBS;The AEBS request to light FARC lamp status;0;3;
+carbide;83;ADAS_SPD_REGL;ADASPR;The RVVi status;0;15;
+carbide;83;ADAS_ABS;ADABRS;The ABR status;0;1;
+carbide;83;ADAS_BLND_SPOT_MONT;ADBSPM;The SAM status;0;128;63
+carbide;83;ADAS_ELCT_BRK_SERV;ADEBRS;The FSE status;0;1;"2
+3"
+carbide;83;ADAS_ESP;ADESTP;The ESP status;0;1;
+carbide;83;ADAS_FRNT_PARK;ADFPAA;The front parking AAS status;1;256;
+carbide;83;ADAS_LDW;ADLDEW;The AFIL request to light AFIL lamp status;;;
+carbide;83;ADAS_LEFT_LKA;ADLLKA;The left LKA status;;;
+carbide;83;ADAS_REAR_PARK;ADRPAA;The rear parking AAS status;;;
+carbide;83;ADAS_RECM_GEAR_INDC;ADRGEI;The GSI status;;;
+carbide;83;ADAS_ARTIV;ADIVTA;The ARTIV selection;;;
+carbide;83;ADAS_RIGH_LKA;ADRLKA;The right LKA status;;;
+carbide;83;ADAS_SPD_LIMT_INFR;ADSLII;The SLI status;0;253;255
+carbide;83;ADAS_SPD_REGL_STTS;ADSRES;The LVV/RVV status;;;
+carbide;84;USG_STTS_BEV_ENGN_SPD;USBENS;The front electric motor speed (BEV);;;
+carbide;84;USG_STTS_BRK_PEDL_SWTC;USBPES;The brake pedal switch;;;
+carbide;84;USG_STTS_DRVR_WILL;USDRWI;The driver request;;;
+carbide;84;USG_STTS_ENGN_SPD;USENSP;The Engine speed (RPM);;;
+carbide;84;USG_STTS_GEAR_MODE;USGBOM;The program mode selected (BVA or BVMP);;;
+carbide;84;USG_STTS_GEAR_RAT;USGBOR;Transmission range mechanically engaged;;;
+carbide;84;USG_STTS_LATR_ACCL;USLAAC;"The lateral acceleration (> 0 if turn left)
+";;;
+carbide;84;USG_STTS_LONG_ACCL;USLOAC;The longitudinal acceleration (wheel sensor);;;
+carbide;84;USG_STTS_MAST_CYLN_PRSS;USMCYP;The master cylinder pressure;;;
+carbide;84;USG_STTS_ODMT_SPD;USODSP;The vehicle speed (wheel sensor);;;
+carbide;84;USG_STTS_PHEV_ENGN_SPD;USPENS;The front electric engine speed (PHEV);;;
+carbide;84;USG_STTS_POWR_STTS;USPTRS;The hybrid powertrain status;;;
+carbide;84;USG_STTS_STRN_WHL_ANGL;USSWHA;The steering wheel angle (> 0 if trigonometric direction);;;
+carbide;84;USG_STTS_TORQ;USTORQ;The actual torque available on the shaft including the actual engine torque and the actual electrical machine torque (if present).;;;
+carbide;84;USG_STTS_YAW_SPD;USYASP;The yaw speed (> 0 if trigonometric direction);;;
+carbide;54, 55, 56, 57, 58, 59;LEV_BATT_CAPC_HEAL;LEBCHE;State Of Health linked to battery capacity SOH;0;100;
+carbide;54, 55, 56, 57, 58, 59;LEV_BATT_INTR_RESS_HEAL;LEBIRH;State Of Health linked to battery internal resistance;0;100;
+carbide;54, 55, 56, 57, 58, 59;LEV_BATT_LOAD_LEVL;LEBLLE;Remaining battery energy;0;65440;
+carbide;54, 55, 56, 57, 58, 59;LEV_BEV_ENGN_SPD;LEBESP;Front electric motor speed (BEV);-20000;20000;
+carbide;54, 55, 56, 57, 58, 59;LEV_CODE;LECODE;Code of the current structure;;;
+carbide;54, 55, 56, 57, 58, 59;LEV_HYBR_GMP_STTS;LEHGST;Power-train status;0;15;
+carbide;54, 55, 56, 57, 58, 59;LEV_PHEV_ENGN_SPD;LEPESP;Front electric motor speed (PHEV);-8000;8000;
+carbide;54, 55, 56, 57, 58, 59;LEV_RESD_ENRG;LEREEN;High Voltage battery state of charge;0;100;
+carbide;54, 55, 56, 57, 58, 59;LEV_TOTL_ENRG;LETOEN;BMS total battery energy;0;65440;
+carbide;54, 55, 56, 57, 58, 59;LEV_ZEV_AUTN;LEZEAU;ZEV autonomy;0;1000;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;AUTH_FDS;AUTFDS;Service functionalities;;;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;HEAD_APPL_PRVC_STTS;HEAPST;Maximal authorized privacy coming from the OTA configuration;0;2;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;HEAD_CRC;HEACRC;CRC CRITT-16 (Code de protocole du BTA);;;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;HEAD_COLL_TIMS;HEDOCO;"Timestamp, in second, relative to the message creation
+Timestamp correspond to the time, in UTC, when the message start to be created";;;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;HEAD_RECP_TIMS;HDOM;Timestamp, in second, relative to the message reception in CARBIDE;;;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;HEAD_GNSS_TIMF;HEGNTF;Flag to indicate if we have a GNSS time fix (GNSS fix status  is time, 2D or 3D);0;1;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;HEAD_GNSS_TIMS;HEGNTS;Timestamp, in s, provided by GNSS (Value is only correct if GNSS time fix is true);;;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;HEAD_MESS_ID;HMSG;Unique id for the message;0;4294967296;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;HEAD_MESS_TYPE;HMST;Message type;0;256;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;HEAD_MESS_VERS;HMPV;"message version
+Message version. Used to identify the expected structure of the message. Carbide information";;;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;HEAD_PRVC_STTS;HEPRST;Status of the privacy mode (off, geoloc or full). The privacy status is computed based on privacy requested by the vehicle user and the maximal authorized privacy coming from the OTA configuration;0;2;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;HEAD_PRTC_VERS;HPTV;NGTP version;;;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;HEAD_REQS_PRVC_STTS;HERPST;"Privacy requested by the vehicle user (off, geoloc or full). This privacy is retrieved from the SDK API ""Cfm_PrivacyMode_Info""";0;2;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;HEAD_SERV_TYPE;HFTY;Service type defined the service which asks the message sending;0;256;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;HEAD_SESS_ID;HESEID;The ATB session id;0;65536;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;HEAD_TIME_SINC_SESS_STRT;HETSSS;Timestamp, in ms, relative to the beginning of the ATB session. Timestamp restart at 0 for all new session id.;;;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;HEAD_TIME_SYNC;HETISY;Flag to indicate if HOUR_DATE is synchronized with a reliable time system.;0;1;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;HEAD_UUID;HEUUID;CARBIDE message identifier;;;
+carbide;54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84;HEAD_VIN;HEAVIN;The vehicle VIN;;;
+carbide;55, 56, 57, 58, 59;EVNT_COLL_TIMS;ETCL;;;;
+carbide;55, 56, 57, 58, 59;EVNT_TIMS;ETEV;;;;
+carbide;55, 56, 57, 58, 59;EVNT_TRNS_TIMS;ETSD;;;;
+carbide;55, 56, 57, 58, 59;EVNT_FRM_ID;EFCO;;0;65535;
+carbide;55, 56, 57, 58, 59;EVNT_TRIP_ID;ETID;;;;
+carbide;55, 56, 57, 58, 59;EVNT_PRVC_MODE;EPVC;;;;
+carbide;55, 56, 57, 58, 59;EVNT_TRGG_TYPE;ETTG;;;;
+carbide;55, 56, 57, 58, 59;EVNT_VIN;EVIN;;;;
+carbide;55, 56, 57, 58, 59;EVNT_ADAS_ACC;EACC;;;;
+carbide;55, 56, 57, 58, 59;EVNT_ADAS_AEBS;EEBS;;;;
+carbide;55, 56, 57, 58, 59;EVNT_ADAS_SPD_REGL_AND_LIMT;ESPL;;;;
+carbide;55, 56, 57, 58, 59;EVNT_ADAS_SPD_REGL;EASR;;;;
+carbide;55, 56, 57, 58, 59;EVNT_ADAS_BLND_SPOT_MONT;EBSM;;;;
+carbide;55, 56, 57, 58, 59;EVNT_ADAS_ELCT_BRK_SERV;EFSE;;;;
+carbide;55, 56, 57, 58, 59;EVNT_ADAS_FRNT_PARK;EPKF;;;;
+carbide;55, 56, 57, 58, 59;EVNT_ADAS_LDW;ELDW;;;;
+carbide;55, 56, 57, 58, 59;EVNT_ADAS_LEFT_LKA;ELKL;;;;
+carbide;55, 56, 57, 58, 59;EVNT_ADAS_REAR_PARK;EPKR;;;;
+carbide;55, 56, 57, 58, 59;EVNT_ADAS_ARTIV;EIVA;;;;
+carbide;55, 56, 57, 58, 59;EVNT_ADAS_RIGH_LKA;ELKR;;;;
+carbide;55, 56, 57, 58, 59;EVNT_ADAS_SPD_LIMT_INFR;ESLI;;0;253;
+carbide;55, 56, 57, 58, 59;EVNT_ADAS_ABS;EABR;;;;
+carbide;55, 56, 57, 58, 59;EVNT_ADAS_ESP;EESP;;;;
+carbide;55, 56, 57, 58, 59;EVNT_CRSH_FRNT_REPR;ECF1;;;;
+carbide;55, 56, 57, 58, 59;EVNT_CRSH_FRNT_HIGH_SPD;ECF5;;;;
+carbide;55, 56, 57, 58, 59;EVNT_CRSH_FRNT_LOW_SPD;ECF2;;;;
+carbide;55, 56, 57, 58, 59;EVNT_CRSH_FRNT_MEDM_SPD_N1;ECF4;;;;
+carbide;55, 56, 57, 58, 59;EVNT_CRSH_FRNT_MEDM_SPD_N2;ECF3;;;;
+carbide;55, 56, 57, 58, 59;EVNT_CRSH_PEDS_INFR;ECPD;;;;
+carbide;55, 56, 57, 58, 59;EVNT_CRSH_REAR_HIGH_SPD;ECR4;;;;
+carbide;55, 56, 57, 58, 59;EVNT_CRSH_LATR_REAR_HIGH_SPD;ECL4;;;;
+carbide;55, 56, 57, 58, 59;EVNT_CRSH_LATR_REAR_LOW_SPD;ECL2;;;;
+carbide;55, 56, 57, 58, 59;EVNT_CRSH_REAR_MEDM_SPD;ECR3;;;;
+carbide;55, 56, 57, 58, 59;EVNT_CRSH_LATR_REAR_MEDM_SPD;ECL3;;;;
+carbide;55, 56, 57, 58, 59;EVNT_CRSH_REAR_REPR;ECL1;;;;
+carbide;55, 56, 57, 58, 59;EVNT_CRSH_REAR_REPR_SPD;ECR1;;;;
+carbide;55, 56, 57, 58, 59;EVNT_CRSH_REAR_LOW_SPD;ECR2;;;;
+carbide;55, 56, 57, 58, 59;EVNT_CRSH_TIPP_OVER;ECTO;;;;
+carbide;55, 56, 57, 58, 59;EVNT_ALTT;EALT;;-1000;10000;
+carbide;55, 56, 57, 58, 59;EVNT_GPS_SIGN_QUAL;ELSN;;0;9;
+carbide;55, 56, 57, 58, 59;EVNT_HEAD;EHEA;;0;359;
+carbide;55, 56, 57, 58, 59;EVNT_LATT;ELAT;;-648000000;648000000;
+carbide;55, 56, 57, 58, 59;EVNT_LONG;ELON;;-648000000;648000000;
+carbide;55, 56, 57, 58, 59;EVNT_GPS_VEHC_LOCT_TYPE;ELTY;;;;
+carbide;55, 56, 57, 58, 59;EVNT_PRVS_ALTT;EPAL;;-1000;10000;
+carbide;55, 56, 57, 58, 59;EVNT_PRVS_TIMS;EPTS;;;;
+carbide;55, 56, 57, 58, 59;EVNT_PRVS_FUEL_LEVL;EPFL;;0;100;
+carbide;55, 56, 57, 58, 59;EVNT_PRVS_GPS_SIGN_QUAL;EPSN;;0;9;
+carbide;55, 56, 57, 58, 59;EVNT_PRVS_HEAD;EPHE;;0;359;
+carbide;55, 56, 57, 58, 59;EVNT_PRVS_FRM_ID;EPNB;;0;65535;
+carbide;55, 56, 57, 58, 59;EVNT_PRVS_LATT;EPLA;;-648000000;648000000;
+carbide;55, 56, 57, 58, 59;EVNT_PRVS_LIFT_MILG;EPLM;;0;1677721.4;
+carbide;55, 56, 57, 58, 59;EVNT_PRVS_LONG;EPLO;;-648000000;648000000;
+carbide;55, 56, 57, 58, 59;EVNT_PRVS_PRVC_MODE;EPPC;;;;
+carbide;55, 56, 57, 58, 59;EVNT_PRVS_TRGG_TYPE;EPTT;;;;
+carbide;55, 56, 57, 58, 59;EVNT_PRVS_VEHC_LOCT_TYPE;EPLT;;;;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_FUEL_LOW_LEVL;EAFU;;;;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_SCR_LOW_LEVL;EASC;Alert_of_SCR_low_level;0;2000;65535
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_DAYS_BEFR_MAIN;EMDV;;0;730;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_DAYS_BEFR_MAIN_SIGN;EMDS;;;;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_ECLL;EECL;;;;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_FRNT_FOG_LAMP;EFLF;;;;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_FUEL_INST_CONS;EFUI;;0;30;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_FUEL_LEVL;EFUL;;0;100;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_FUEL_TOTL_CONS;EFUT;;0;34359738.35;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_GMP_STTS;PENS;GMP_Status;;;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_IGNT;EING;;;;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_LEFT_INDC;EISL;;;;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_LIFT_MILG;EMIT;;0;1677721.4;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_LONG_SPD;ESPX;;0;655.34;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_LUMN;ELUM;;;;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_MILG_BEFR_MAIN;EMMV;;0;140000;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_MILG_BEFR_MAIN_SIGN;EMMS;;;;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_OIL_TEMP;EOIT;;-40;214;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_OUTS_TEMP;EETP;;-40;85;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_REAR_FOG_LAMP;EFLR;;;;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_RESD_AUTN;EAUR;;0;2000;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_RIGH_INDC;EISR;;;;
+carbide;55, 56, 57, 58, 59;EVNT_VEHC_UNBC_BELT_WARN_LIST;EUWS;;;;
+carbide;55, 56, 57, 58, 59, 67;JDA_ALRT;EACO;;;;
+carbide;55, 56, 57, 58, 59, 67;JDA_EEA_VERS;JDAEVE;AEE Version;0;11;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_COMP_VERS;HCPV;"Companion software version of the system. First 2 characters represent the major version. Last 2 characters represent minor version.
+";;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_DATA_LENG;HDLG;Data length of the payload of the NGTP message;;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_MESS_TIMS;HDMS;Message date;;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_RECP_TIMS;HDOM;system timestamp of reception of message. For xml files: fictive json key, corresponding to the previous PTRC / ETRC fields in the body of the frame;;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_ADDT_INFO_DISPT_ROUT;HDRI;Additionnal Info to Dispatcher for the routing;;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_FIRM_VERS;HFWV;"FW Version - Firmware version of the system. First 2 characters represent the major version. Last 2 characters represent minor version.";;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_IMEI;HMEI;;;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_IMSI;HMSI;;;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_LANG;HLGE;Code langue ISO 639-1;;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_MESS_ID;HMSG;"Unique id for the message.
+Made by a random counter ";;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_MESS_VERS;HMPV;"message version 0x01 : first version 0x02 : second version";;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_MESS_TYPE;HMST;messageType;;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_MOBL_COUN_CODE;HMCC;Mobile Country Code of operator network visited;;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_PRTC_VERS;HPTV;NGTP version;;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_DEVC;HRDV;ATB type;;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_SOFT_VERS;HRVS;"SW Version - Software version of the system (downloadable software) First 2 characters represent the major version.
+ Last 2 characters represent minor version.
+";;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_FRM_TYPE;HFTY;"Service which asks the message sending
+";;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_SVIN;HSVN;visFromCAN - VIS 1 represents vehicle identifier read from CAN network.;;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_TIME_OFFS;HTOS;Offset clock  ATB -  difference for local time from UTC for the nationality in question;;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_TIME_SINC_SESS_STRT;;;;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_TIME_SYNC;;;;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_VIS_CAN;HVCA;;;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_VIS_CONF;HVCO;visFromConfig;;;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_SERV_TYPE;HFTY;Service type defined the service which asks the message sending;0;256;
+carcom_json;54, 55, 56, 57, 58, 59;HEAD_VIN;HEAVIN;The vehicle VIN;;;
+carcom_json;54;PERD_COLL_TIMS;PTCL;Timestamp_data_collection;;;
+carcom_json;54;PERD_TRNS_TIMS;PTSD;Timestamp_frame_sending;;;
+carcom_json;54;PERD_FRM_ID;PFCO;Frame_Incrementation;0;65535;
+carcom_json;54;PERD_TRIP_ID;PTID;Trip ID;;;
+carcom_json;54;PERD_PRVC_MODE_01;PPV1;Privacy_mode_s30;;;
+carcom_json;54;PERD_PRVC_MODE_02;PPV2;Privacy_mode_s60;;;
+carcom_json;54;PERD_REBT_COUN;PBOO;ATB_reboots_counter;0;255;
+carcom_json;54;PERD_VIN;PVIN;VIN;;;
+carcom_json;54;PERD_ADAS_ACC;PACC;ACC_Adaptive_Cruise_Control;;;
+carcom_json;54;PERD_ADAS_AEBS;PEBS;AEBS_Advanced_Emergency_Braking_System;;;
+carcom_json;54;PERD_ADAS_SPD_REGL_AND_LIMT;PSPL;LVV_RVV_Advanced_speed_regulator_and_limit;;;
+carcom_json;54;PERD_ADAS_SPD_REGL;PASR;RVVI_Advanced_speed_regulator;;;
+carcom_json;54;PERD_ADAS_BLND_SPOT_MONT;PBSM;SAM_Blind_spot_monitoring;;;
+carcom_json;54;PERD_ADAS_ELCT_BRK_SERV;PFSE;FSE_Electric_brake_service;;;
+carcom_json;54;PERD_ADAS_FRNT_PARK;PPKF;AAS_Front_parking;;;
+carcom_json;54;PERD_ADAS_LDW;PLDW;AFIL_Lane_Departure_Warning;;;
+carcom_json;54;PERD_ADAS_LEFT_LKA;PLKL;LKA_Left_Lane_Keeping_Assist;;;
+carcom_json;54;PERD_ADAS_REAR_PARK;PPKR;AAS_Rear_parking;;;
+carcom_json;54;PERD_ADAS_ARTIV;PIVA;ARTIV_Respect_inter_vehicle_time_assist;;;
+carcom_json;54;PERD_ADAS_RIGH_LKA;PLKR;LKA_Right_Lane_Keeping_Assist;;;
+carcom_json;54;PERD_ADAS_SPD_LIMT_INFR;PSLI;SLI_Speed_Limit_Information;0;253;255
+carcom_json;54;PERD_ADAS_ABS;PABR;ABR;;;
+carcom_json;54;PERD_ADAS_ESP;PESP;ESP;;;
+carcom_json;54;PERD_CRSH_FRNT_REPR;PCF1;Crash_Front_reparability;;;
+carcom_json;54;PERD_CRSH_FRNT_HIGH_SPD;PCF5;Crash_High_speed_front;;;
+carcom_json;54;PERD_CRSH_FRNT_LOW_SPD;PCF2;Crash_Low_speed_front;;;
+carcom_json;54;PERD_CRSH_FRNT_MEDM_SPD_N1;PCF4;Crash_Medium_speed_N1_front;;;
+carcom_json;54;PERD_CRSH_FRNT_MEDM_SPD_N2;PCF3;Crash_Medium_speed_N2_front;;;
+carcom_json;54;PERD_CRSH_PEDS_INFR;PCPD;Crash_Pedestrian;;;
+carcom_json;54;PERD_CRSH_PEDS_INFR_LIST;;Crash_Pedestrian_Infos;;;
+carcom_json;54;PERD_CRSH_REAR_HIGH_SPD;PCR4;Crash_Rear_high_speed;;;
+carcom_json;54;PERD_CRSH_LATR_REAR_HIGH_SPD;PCL4;Crash_Rear_high_speed_lateral;;;
+carcom_json;54;PERD_CRSH_LATR_REAR_LOW_SPD;PCL2;Crash_Rear_low_speed_lateral;;;
+carcom_json;54;PERD_CRSH_REAR_MEDM_SPD;PCR3;Crash_Rear_medium_speed;;;
+carcom_json;54;PERD_CRSH_LATR_REAR_MEDM_SPD;PCL3;Crash_Rear_medium_speed_lateral;;;
+carcom_json;54;PERD_CRSH_REAR_REPR;PCL1;Crash_Rear_reparability_lateral;;;
+carcom_json;54;PERD_CRSH_REAR_REPR_SPD;PCR1;Crash_Rear_reparability_speed;;;
+carcom_json;54;PERD_CRSH_REAR_LOW_SPD;PCR2;Crash_Rear_slow_speed;;;
+carcom_json;54;PERD_CRSH_TIPP_OVER;PCTO;Crash_Tipped_over;;;
+carcom_json;54;PERD_ALTT;PALT;Altitude;-1000;10000;-1
+carcom_json;54;PERD_GPS_SIGN_QUAL;PLSN;GPS_rough_quality_nb_visible_satellites;0;9;255
+carcom_json;54;PERD_HEAD;PHEA;Heading_angle_with_north_clockwise;0;359;65535
+carcom_json;54;PERD_LATT;PLAT;Latitude;-648000000;324000000;0, -1
+carcom_json;54;PERD_LONG;PLON;Longitude;-648000000;648000000;0, -1
+carcom_json;54;PERD_GPS_VEHC_LOCT_TYPE;PLTY;GPS_data_type;;;
+carcom_json;54;PERD_VEHC_ENGN_SPD;PRPM;Engine_speed;0;8191.75;8191.87, 8191.875, 8191.88, 65535
+carcom_json;54;PERD_VEHC_FRNT_FOG_LAMP;PFLF;Front_fog_lamps_statement;;;
+carcom_json;54;PERD_VEHC_FUEL_INST_CONS;PFUI;Fuel_instant_consumption;0;30;6553.5, 65535
+carcom_json;54;PERD_VEHC_FUEL_LEVL;PFUL;Fuel_level;0;100;255
+carcom_json;54;PERD_VEHC_FUEL_TOTL_CONS;PFUT;Fuel_total_consumption;0;34359738.35;34359738.36, 4294967295, - 0.010000
+carcom_json;54;PERD_VEHC_GEAR_MODE;PAUM;Auto_gearbox_mode;;;
+carcom_json;54;PERD_VEHC_GMP_STTS;PENS;GMP_Status;;;
+carcom_json;54;PERD_VEHC_HYBR_MODE;PHYM;Hybrid_mode;;;
+carcom_json;54;PERD_VEHC_IGNT;PING;SEV_Status_Electric_Vehicule_System_Ignition_ON_OFF;;;
+carcom_json;54;PERD_VEHC_LIFT_MILG;PMIT;Lifetime_mileage;0;1677721.4;1677721.5, 16777215, 25.5
+carcom_json;54;PERD_VEHC_LONG_SPD;PSPX;Longitudinal_speed;0;655.34;655.35, 65535
+carcom_json;54;PERD_VEHC_LUMN;PLUM;Luminosity;;;
+carcom_json;54;PERD_VEHC_OIL_TEMP;POIT;Oil_temperature;-40;214;215, 255
+carcom_json;54;PERD_VEHC_OUTS_TEMP;PETP;Outside_temperature;-40;85;87.5, 255
+carcom_json;54;PERD_VEHC_REAR_FOG_LAMP;PFLR;Rear_fog_lamps_statement;;;
+carcom_json;54;PERD_VEHC_RECM_GEAR_INDC;PRGI;Recommended_gear_indicator;;;
+carcom_json;54;PERD_VEHC_UNBC_BELT_WARN;PUBW;Unbuckled_belt_warning;;;
+carcom_json;54;PERD_FRM_NUMB;;;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_JDA_ALRT;EACO;Alert_codes;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_COLL_TIMS;ETCL;Timestamp_data_collection;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_TIMS;ETEV;Timestamp_of_event;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_TRNS_TIMS;ETSD;Timestamp_frame_sending;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_FRM_ID;EFCO;Frame_Incrementation;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_TRIP_ID;ETID;Trip ID;0;65535;
+carcom_json;55, 56, 57, 58, 59;EVNT_PRVC_MODE;EPVC;Privacy_mode;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_REBT_COUN;;ATB_reboots_counter;0;255;
+carcom_json;55, 56, 57, 58, 59;EVNT_TRGG_TYPE;ETTG;Type_of_trigger;0;1677721.4;1677721.5, 16777215
+carcom_json;55, 56, 57, 58, 59;EVNT_VIN;EVIN;VIN;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_ADAS_ACC;EACC;ACC_Adaptive_Cruise_Control;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_ADAS_AEBS;EEBS;AEBS_Advanced_Emergency_Braking_System;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_ADAS_SPD_REGL_AND_LIMT;ESPL;LVV_RVV_Advanced_speed_regulator_and_limit;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_ADAS_SPD_REGL;EASR;RVVI_Advanced_speed_regulator;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_ADAS_BLND_SPOT_MONT;EBSM;SAM_Blind_spot_monitoring;0;253;255
+carcom_json;55, 56, 57, 58, 59;EVNT_ADAS_ELCT_BRK_SERV;EFSE;FSE_Electric_brake_service;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_ADAS_FRNT_PARK;EPKF;AAS_Front_parking;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_ADAS_LDW;ELDW;AFIL_Lane_Departure_Warning;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_ADAS_LEFT_LKA;ELKL;LKA_Left_Lane_Keeping_Assist;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_ADAS_REAR_PARK;EPKR;AAS_Rear_parking;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_ADAS_ARTIV;EIVA;ARTIV_Respect_inter_vehicle_time_assist;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_ADAS_RIGH_LKA;ELKR;LKA_Right_Lane_Keeping_Assist;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_ADAS_SPD_LIMT_INFR;ESLI;SLI_Speed_Limit_Information;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_ADAS_ABS;EABR;ABR;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_ADAS_ESP;EESP;ESP;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_CRSH_FRNT_REPR;ECF1;Crash_Front_reparability;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_CRSH_FRNT_HIGH_SPD;ECF5;Crash_High_speed_front;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_CRSH_FRNT_LOW_SPD;ECF2;Crash_Low_speed_front;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_CRSH_FRNT_MEDM_SPD_N1;ECF4;Crash_Medium_speed_N1_front;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_CRSH_FRNT_MEDM_SPD_N2;ECF3;Crash_Medium_speed_N2_front;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_CRSH_PEDS_INFR;ECPD;Crash_Pedestrian;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_CRSH_REAR_HIGH_SPD;ECR4;Crash_Rear_high_speed;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_CRSH_LATR_REAR_HIGH_SPD;ECL4;Crash_Rear_high_speed_lateral;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_CRSH_LATR_REAR_LOW_SPD;ECL2;Crash_Rear_low_speed_lateral;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_CRSH_REAR_MEDM_SPD;ECR3;Crash_Rear_medium_speed;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_CRSH_LATR_REAR_MEDM_SPD;ECL3;Crash_Rear_medium_speed_lateral;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_CRSH_REAR_REPR;ECL1;Crash_Rear_reparability_lateral;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_CRSH_REAR_REPR_SPD;ECR1;Crash_Rear_reparability_speed;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_CRSH_REAR_LOW_SPD;ECR2;Crash_Rear_slow_speed;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_CRSH_TIPP_OVER;ECTO;Crash_Tipped_over;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_ALTT;EALT;Altitude;0;359;65535
+carcom_json;55, 56, 57, 58, 59;EVNT_GPS_SIGN_QUAL;ELSN;GPS_rough_quality_nb_visible_satellites;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_HEAD;EHEA;Heading_angle_with_north_clockwise;-648000000;648000000;0, -1
+carcom_json;55, 56, 57, 58, 59;EVNT_LATT;ELAT;Latitude;0;324000000;0, -1
+carcom_json;55, 56, 57, 58, 59;EVNT_LONG;ELON;Longitude;-648000000;648000000;0, -1
+carcom_json;55, 56, 57, 58, 59;EVNT_GPS_VEHC_LOCT_TYPE;ELTY;GPS_data_type;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_PRVS_ALTT;EPAL;Previous_frame_Altitude;0;359;65535
+carcom_json;55, 56, 57, 58, 59;EVNT_PRVS_TIMS;EPTS;Previous_frame_timestamp_of_event;0;65535;
+carcom_json;55, 56, 57, 58, 59;EVNT_PRVS_FUEL_LEVL;EPFL;Previous_frame_fuel_level;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_PRVS_GPS_SIGN_QUAL;EPSN;Previous_frame_GPS_signal_quality;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_PRVS_HEAD;EPHE;Previous_frame_Heading_(Cap);-648000000;648000000;0, -1
+carcom_json;55, 56, 57, 58, 59;EVNT_PRVS_FRM_ID;EPNB;Previous_frame_incrementation;-1000;10000;-1
+carcom_json;55, 56, 57, 58, 59;EVNT_PRVS_LATT;EPLA;Previous_frame_GPS_coordinates;0;324 000 000;0, -1
+carcom_json;55, 56, 57, 58, 59;EVNT_PRVS_LIFT_MILG;EPLM;Previous_frame_lifetime_mileage;0;100;255
+carcom_json;55, 56, 57, 58, 59;EVNT_PRVS_LONG;EPLO;Previous_frame_GPS_coordinates;-648000000;648000000;0, -1
+carcom_json;55, 56, 57, 58, 59;EVNT_PRVS_PRVC_MODE;EPPC;Previous_frame_privacy;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_PRVS_TRGG_TYPE;EPTT;Previous_frame_type_of_trigger;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_PRVS_VEHC_LOCT_TYPE;EPLT;Previous_frame_Vehicle_localisation_type;-1000;10000;-1
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_FUEL_LOW_LEVL;EAFU;Alert_of_fuel_low_level;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_SCR_LOW_LEVL;EASC;Alert_of_SCR_low_level;0;2000;65535
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_DAYS_BEFR_MAIN;EMDV;Number_of_days_before_maintenance;0;100;255
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_DAYS_BEFR_MAIN_SIGN;EMDS;Sign_Days_before_maintenance;0;730;4095
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_ECLL;EECL;E-Call_triggering;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_FRNT_FOG_LAMP;EFLF;Front_fog_lamps_statement;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_FUEL_INST_CONS;EFUI;Fuel_instant_consumption;0;34359738.35;34359738.36, 4294967295, - 0.010000
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_FUEL_LEVL;EFUL;Fuel_level;-40;214;215, 255
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_FUEL_TOTL_CONS;EFUT;Fuel_total_consumption;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_GMP_STTS;EENS;GMP_Status;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_IGNT;EING;SEV_Status_Electric_Vehicule_System_Ignition_ON_OFF;0;655.34;655.35, 65535
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_LEFT_INDC;EISL;Left_indicator_statement;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_LIFT_MILG;EMIT;Lifetime_mileage;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_LONG_SPD;ESPX;Longitudinal_speed;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_LUMN;ELUM;Luminosity;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_MILG_BEFR_MAIN;EMMV;Mileage_before_maintenance;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_MILG_BEFR_MAIN_SIGN;EMMS;Sign_Mileage_before_Maintenance;0;140000;1310700, 65535
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_OIL_TEMP;EOIT;Oil_temperature;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_OUTS_TEMP;EETP;Outside_temperature;0;30;6553.5, 65535
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_REAR_FOG_LAMP;EFLR;Rear_fog_lamps_statement;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_RESD_AUTN;EAUR;Residual_autonomy;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_RIGH_INDC;EISR;Right_indicator_statement;;;
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_UNBC_BELT_WARN;;Unbuckled_belt_warnings;-40;85;87.5, 255
+carcom_json;55, 56, 57, 58, 59;EVNT_VEHC_UNBC_BELT_WARN_LIST;EUWS;Unbuckled_belt_warnings;-40;85;87.5, 255
+carcom_json;55, 56, 57, 58, 59;EVNT_FRM_NUMB;;;;;
+carcom_xml;54, 55, 56, 57, 58, 59;HEAD_MESS_TIMS;HDMS;;;;
+carcom_xml;54, 55, 56, 57, 58, 59;HEAD_RECP_TIMS;HDOM;system timestamp of reception of message. For xml files: fictive json key, corresponding to the previous PTRC / ETRC fields in the body of the frame;;;
+carcom_xml;54, 55, 56, 57, 58, 59;HEAD_DEVC;HRDV;ATB type;;;
+carcom_xml;54, 55, 56, 57, 58, 59;HEAD_FRM_ID;HFCO;;;;
+carcom_xml;54, 55, 56, 57, 58, 59;HEAD_IMSI;HMSI;;;;
+carcom_xml;54, 55, 56, 57, 58, 59;HEAD_IMEI;HMEI;;;;
+carcom_xml;54, 55, 56, 57, 58, 59;HEAD_MESS_TYPE;HMST;;;;
+carcom_xml;54, 55, 56, 57, 58, 59;HEAD_FRM_TYPE;HFTY;"Service which asks the message sending
+";;;
+carcom_xml;54, 55, 56, 57, 58, 59;HEAD_SVIN;HSVN;visFromCAN - VIS 1 represents vehicle identifier read from CAN network.;;;
+carcom_xml;54, 55, 56, 57, 58, 59;HEAD_SOFT_VERS;HSWV;"SW Version - Software version of the system (downloadable software) First 2 characters represent the major version.
+ Last 2 characters represent minor version.
+";;;
+carcom_xml;54, 55, 56, 57, 58, 59;HEAD_VIS_CAN;HVCA;;;;
+carcom_xml;54, 55, 56, 57, 58, 59;HEAD_VIS_CONF;HVCO;visFromConfig;;;
+carcom_xml;54, 55, 56, 57, 58, 59;HEAD_SERV_TYPE;HFTY;Service type defined the service which asks the message sending;0;256;
+carcom_xml;54, 55, 56, 57, 58, 59;HEAD_VIN;HEAVIN;The vehicle VIN;;;
+carcom_xml;54;PERD_FRM_TYPE;PFTY;Frame_type;7;7;
+carcom_xml;54;PERD_RECP_NUMB;PFRN;Frame_reception_number;0;;
+carcom_xml;54;PERD_RECP_TIMS;PTRC;Timestamp_data_reception;;;
+carcom_xml;54;PERD_WMI;PWMI;VIN_WMI;;;
+carcom_xml;54;PERD_VDS_STRT;PVD1;VIN_VDS_first;;;
+carcom_xml;54;PERD_VDS_END;PVD2;VIN_VDS_end;;;
+carcom_xml;54;PERD_VIS;PVIS;VIN_VIS;;;
+carcom_xml;54;PERD_COLL_TIMS;PTCL;Timestamp_data_collection;;;
+carcom_xml;54;PERD_TRNS_TIMS;PTSD;Timestamp_frame_sending;;;
+carcom_xml;54;PERD_TRIP_ID;PTID;Trip ID;;;
+carcom_xml;54;PERD_FRM_ID;PFCO;Frame_Incrementation;0;65535;
+carcom_xml;54;PERD_PRVC_MODE_01;PPV1;Privacy_mode_s30;;;
+carcom_xml;54;PERD_PRVC_MODE_02;PPV2;Privacy_mode_s60;;;
+carcom_xml;54;PERD_REBT_COUN;PBOO;ATB_reboots_counter;0;255;
+carcom_xml;54;PERD_ALTT;PALT;Altitude;-1000;10000;-1
+carcom_xml;54;PERD_HEAD;PHEA;Heading_angle_with_north_clockwise;0;359;65535
+carcom_xml;54;PERD_LATT;PLAT;Latitude;-648000000;324000000;0, -1
+carcom_xml;54;PERD_LONG;PLON;Longitude;-648000000;648000000;0, -1
+carcom_xml;54;PERD_GPS_SIGN_QUAL;PLSN;GPS_rough_quality_nb_visible_satellites;0;9;255
+carcom_xml;54;PERD_GPS_VEHC_LOCT_TYPE;PLTY;GPS_data_type;;;
+carcom_xml;54;PERD_CRSH_REAR_HIGH_SPD;PCR4;Crash_Rear_high_speed;;;
+carcom_xml;54;PERD_CRSH_REAR_MEDM_SPD;PCR3;Crash_Rear_medium_speed;;;
+carcom_xml;54;PERD_CRSH_REAR_LOW_SPD;PCR2;Crash_Rear_slow_speed;;;
+carcom_xml;54;PERD_CRSH_REAR_REPR_SPD;PCR1;Crash_Rear_reparability_speed;;;
+carcom_xml;54;PERD_CRSH_PEDS_INFR_LIST;PCPD;Crash_Pedestrian;;;
+carcom_xml;54;PERD_CRSH_FRNT_HIGH_SPD;PCF5;Crash_High_speed_front;;;
+carcom_xml;54;PERD_CRSH_FRNT_MEDM_SPD_N1;PCF4;Crash_Medium_speed_N1_front;;;
+carcom_xml;54;PERD_CRSH_FRNT_MEDM_SPD_N2;PCF3;Crash_Medium_speed_N2_front;;;
+carcom_xml;54;PERD_CRSH_FRNT_LOW_SPD;PCF2;Crash_Low_speed_front;;;
+carcom_xml;54;PERD_CRSH_FRNT_REPR;PCF1;Crash_Front_reparability;;;
+carcom_xml;54;PERD_CRSH_LATR_REAR_HIGH_SPD;PCL4;Crash_Rear_high_speed_lateral;;;
+carcom_xml;54;PERD_CRSH_LATR_REAR_MEDM_SPD;PCL3;Crash_Rear_medium_speed_lateral;;;
+carcom_xml;54;PERD_CRSH_LATR_REAR_LOW_SPD;PCL2;Crash_Rear_low_speed_lateral;;;
+carcom_xml;54;PERD_CRSH_REAR_REPR;PCL1;Crash_Rear_reparability_lateral;;;
+carcom_xml;54;PERD_CRSH_TIPP_OVER;PCTO;Crash_Tipped_over;;;
+carcom_xml;54;PERD_ADAS_REAR_PARK;PPKR;AAS_Rear_parking;;;
+carcom_xml;54;PERD_ADAS_FRNT_PARK;PPKF;AAS_Front_parking;;;
+carcom_xml;54;PERD_ADAS_ACC;PACC;ACC_Adaptive_Cruise_Control;;;
+carcom_xml;54;PERD_ADAS_AEBS;PEBS;AEBS_Advanced_Emergency_Braking_System;;;
+carcom_xml;54;PERD_ADAS_LDW;PLDW;AFIL_Lane_Departure_Warning;;;
+carcom_xml;54;PERD_ADAS_ARTIV;PIVA;ARTIV_Respect_inter_vehicle_time_assist;;;
+carcom_xml;54;PERD_ADAS_ESP;PESP;ESP;;;
+carcom_xml;54;PERD_ADAS_ABS;PABR;ABR;;;
+carcom_xml;54;PERD_ADAS_ELCT_BRK_SERV;PFSE;FSE_Electric_brake_service;;;
+carcom_xml;54;PERD_ADAS_SPD_REGL_AND_LIMT;PSPL;LVV_RVV_Advanced_speed_regulator_and_limit;;;
+carcom_xml;54;PERD_ADAS_RIGH_LKA;PLKR;LKA_Right_Lane_Keeping_Assist;;;
+carcom_xml;54;PERD_ADAS_LEFT_LKA;PLKL;LKA_Left_Lane_Keeping_Assist;;;
+carcom_xml;54;PERD_ADAS_SPD_REGL;PASR;RVVI_Advanced_speed_regulator;;;
+carcom_xml;54;PERD_ADAS_BLND_SPOT_MONT;PBSM;SAM_Blind_spot_monitoring;;;
+carcom_xml;54;PERD_ADAS_SPD_LIMT_INFR;PSLI;SLI_Speed_Limit_Information;0;253;255
+carcom_xml;54;PERD_VEHC_REAR_FOG_LAMP;PFLR;Rear_fog_lamps_statement;;;
+carcom_xml;54;PERD_VEHC_FRNT_FOG_LAMP;PFLF;Front_fog_lamps_statement;;;
+carcom_xml;54;PERD_VEHC_UNBC_BELT_WARN;PUBW;Unbuckled_belt_warning;;;
+carcom_xml;54;PERD_VEHC_OUTS_TEMP;PETP;Outside_temperature;-40;85;87.5, 255
+carcom_xml;54;PERD_VEHC_RECM_GEAR_INDC;PRGI;Recommended_gear_indicator;;;
+carcom_xml;54;PERD_VEHC_FUEL_INST_CONS;PFUI;Fuel_instant_consumption;0;30;6553.5, 65535
+carcom_xml;54;PERD_VEHC_FUEL_TOTL_CONS;PFUT;Fuel_total_consumption;0;34359738.35;34359738.36, 4294967295, - 0.010000
+carcom_xml;54;PERD_VEHC_IGNT;PING;SEV_Status_Electric_Vehicule_System_Ignition_ON_OFF;;;
+carcom_xml;54;PERD_VEHC_GEAR_MODE;PAUM;Auto_gearbox_mode;;;
+carcom_xml;54;PERD_VEHC_ENGN_SPD;PRPM;Engine_speed;0;8191.75;8191.87, 8191.875, 8191.88, 65535
+carcom_xml;54;PERD_VEHC_LONG_SPD;PSPX;Longitudinal_speed;0;655.34;655.35, 65535
+carcom_xml;54;PERD_VEHC_LUMN;PLUM;Luminosity;;;
+carcom_xml;54;PERD_VEHC_HYBR_MODE;PHYM;Hybrid_mode;;;
+carcom_xml;54;PERD_VEHC_LIFT_MILG;PMIT;Lifetime_mileage;0;1677721.4;1677721.5, 16777215, 25.5
+carcom_xml;54;PERD_VEHC_FUEL_LEVL;PFUL;Fuel_level;0;100;255
+carcom_xml;54;PERD_VEHC_OIL_TEMP;POIT;Oil_temperature;-40;214;215, 255
+carcom_xml;54;PERD_VEHC_GMP_STTS;PENS;GMP_Status;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_FRM_TYPE;EFTY;Frame_type;8;8;
+carcom_xml;55, 56, 57, 58, 59;EVNT_RECP_NUMB;EFRN;Frame_reception_number;0;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_RECP_TIMS;ETRC;Timestamp_data_reception;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_WMI;EWMI;VIN_WMI;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_VDS_STRT;EVD1;VIN_VDS_first;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_VDS_END;EVD2;VIN_VDS_end;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_VIS;EVIS;VIN_VIS;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_COLL_TIMS;ETCL;Timestamp_data_collection;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_TRNS_TIMS;ETSD;Timestamp_frame_sending;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_TRIP_ID;ETID;Trip ID;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_FRM_ID;EFCO;Frame_Incrementation;0;65535;
+carcom_xml;55, 56, 57, 58, 59;EVNT_PRVC_MODE;EPVC;Privacy_mode;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_TIMS;ETEV;Timestamp_of_event;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_TRGG_TYPE;ETTG;Type_of_trigger;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_PRVS_LIFT_MILG;EPLM;Previous_frame_lifetime_mileage;0;1677721.4;1677721.5, 16777215
+carcom_xml;55, 56, 57, 58, 59;EVNT_PRVS_FUEL_LEVL;EPFL;Previous_frame_fuel_level;0;100;255
+carcom_xml;55, 56, 57, 58, 59;EVNT_PRVS_PRVC_MODE;EPPC;Previous_frame_privacy;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_PRVS_TRGG_TYPE;EPTT;Previous_frame_type_of_trigger;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_PRVS_TIMS;EPTS;Previous_frame_timestamp_of_event;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_PRVS_FRM_ID;EPNB;Previous_frame_incrementation;0;65535;
+carcom_xml;55, 56, 57, 58, 59;EVNT_PRVS_ALTT;EPAL;Previous_frame_Altitude;-1000;10000;-1
+carcom_xml;55, 56, 57, 58, 59;EVNT_PRVS_HEAD;EPHE;Previous_frame_Heading_(Cap);0;359;65535
+carcom_xml;55, 56, 57, 58, 59;EVNT_PRVS_LATT;EPLA;Previous_frame_Latitude;-648000000;324000000;0, -1
+carcom_xml;55, 56, 57, 58, 59;EVNT_PRVS_LONG;EPLO;Previous_frame_Longitude;-648000000;648000000;0, -1
+carcom_xml;55, 56, 57, 58, 59;EVNT_PRVS_GPS_SIGN_QUAL;EPSN;Previous_frame_GPS_signal_quality;0;9;0, 255
+carcom_xml;55, 56, 57, 58, 59;EVNT_PRVS_VEHC_LOCT_TYPE;EPLT;Previous_frame_Vehicle_localisation_type;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_ALTT;EALT;Altitude;-1000;10000;-1
+carcom_xml;55, 56, 57, 58, 59;EVNT_HEAD;EHEA;Heading_angle_with_north_clockwise;0;359;65535
+carcom_xml;55, 56, 57, 58, 59;EVNT_LATT;ELAT;Latitude;-648000000;324000000;0, -1
+carcom_xml;55, 56, 57, 58, 59;EVNT_LONG;ELON;Longitude;-648000000;648000000;0, -1
+carcom_xml;55, 56, 57, 58, 59;EVNT_GPS_SIGN_QUAL;ELSN;GPS_rough_quality_nb_visible_satellites;0;9;255
+carcom_xml;55, 56, 57, 58, 59;EVNT_GPS_VEHC_LOCT_TYPE;ELTY;GPS_data_type;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_CRSH_REAR_HIGH_SPD;ECR4;Crash_Rear_high_speed;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_CRSH_REAR_MEDM_SPD;ECR3;Crash_Rear_medium_speed;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_CRSH_REAR_LOW_SPD;ECR2;Crash_Rear_slow_speed;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_CRSH_REAR_REPR_SPD;ECR1;Crash_Rear_reparability_speed;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_CRSH_PEDS_INFR;ECPD;Crash_Pedestrian;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_CRSH_FRNT_HIGH_SPD;ECF5;Crash_High_speed_front;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_CRSH_FRNT_MEDM_SPD_N1;ECF4;Crash_Medium_speed_N1_front;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_CRSH_FRNT_MEDM_SPD_N2;ECF3;Crash_Medium_speed_N2_front;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_CRSH_FRNT_LOW_SPD;ECF2;Crash_Low_speed_front;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_CRSH_FRNT_REPR;ECF1;Crash_Front_reparability;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_CRSH_LATR_REAR_HIGH_SPD;ECL4;Crash_Rear_high_speed_lateral;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_CRSH_LATR_REAR_MEDM_SPD;ECL3;Crash_Rear_medium_speed_lateral;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_CRSH_LATR_REAR_LOW_SPD;ECL2;Crash_Rear_low_speed_lateral;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_CRSH_REAR_REPR;ECL1;Crash_Rear_reparability_lateral;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_CRSH_TIPP_OVER;ECTO;Crash_Tipped_over;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_ADAS_REAR_PARK;EPKR;AAS_Rear_parking;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_ADAS_FRNT_PARK;EPKF;AAS_Front_parking;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_ADAS_ACC;EACC;ACC_Adaptive_Cruise_Control;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_ADAS_AEBS;EEBS;AEBS_Advanced_Emergency_Braking_System;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_ADAS_LDW;ELDW;AFIL_Lane_Departure_Warning;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_ADAS_ARTIV;EIVA;ARTIV_Respect_inter_vehicle_time_assist;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_ADAS_ESP;EESP;ESP;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_ADAS_ABS;EABR;ABR;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_ADAS_ELCT_BRK_SERV;EFSE;FSE_Electric_brake_service;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_ADAS_SPD_REGL_AND_LIMT;ESPL;LVV_RVV_Advanced_speed_regulator_and_limit;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_ADAS_RIGH_LKA;ELKR;LKA_Right_Lane_Keeping_Assist;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_ADAS_LEFT_LKA;ELKL;LKA_Left_Lane_Keeping_Assist;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_ADAS_SPD_REGL;EASR;RVVI_Advanced_speed_regulator;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_ADAS_BLND_SPOT_MONT;EBSM;SAM_Blind_spot_monitoring;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_ADAS_SPD_LIMT_INFR;ESLI;SLI_Speed_Limit_Information;0;253;255
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_REAR_FOG_LAMP;EFLR;Rear_fog_lamps_statement;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_FRNT_FOG_LAMP;EFLF;Front_fog_lamps_statement;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_UNBC_BELT_WARN_LIST;EUWS;Unbuckled_belt_warnings;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_OUTS_TEMP;EETP;Outside_temperature;-40;85;87.5, 255
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_FUEL_INST_CONS;EFUI;Fuel_instant_consumption;0;30;6553.5, 65535
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_FUEL_TOTL_CONS;EFUT;Fuel_total_consumption;0;34359738.35;34359738.36, 4294967295, - 0.010000
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_IGNT;EING;SEV_Status_Electric_Vehicule_System_Ignition_ON_OFF;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_LONG_SPD;ESPX;Longitudinal_speed;0;655.34;655.35, 65535
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_LUMN;ELUM;Luminosity;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_LIFT_MILG;EMIT;Lifetime_mileage;0;1677721.4;1677721.5, 16777215, 25.5
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_MILG_BEFR_MAIN_SIGN;EMMS;Sign_Mileage_before_Maintenance;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_MILG_BEFR_MAIN;EMMV;Mileage_before_maintenance;0;140000;1310700, 65535
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_DAYS_BEFR_MAIN_SIGN;EMDS;Sign_Days_before_maintenance;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_DAYS_BEFR_MAIN;EMDV;Number_of_days_before_maintenance;0;730;4095
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_FUEL_LEVL;EFUL;Fuel_level;0;100;255
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_OIL_TEMP;EOIT;Oil_temperature;-40;214;215, 255
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_GMP_STTS;EENS;GMP_Status;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_RIGH_INDC;EISR;Right_indicator_statement;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_LEFT_INDC;EISL;Left_indicator_statement;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_ECLL;EECL;E-Call_triggering;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_FUEL_LOW_LEVL;EAFU;Alert_of_fuel_low_level;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_SCR_LOW_LEVL;EASC;Alert_of_SCR_low_level;;;
+carcom_xml;55, 56, 57, 58, 59;EVNT_VEHC_RESD_AUTN;EAUR;Residual_autonomy;0;2000;65535
+carcom_xml;55, 56, 57, 58, 59;EVNT_JDA_ALRT;EACO;Alert_codes;;;
